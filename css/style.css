@@ -212,6 +212,7 @@ a {
     padding-top: 4px;
     padding-bottom: 4px;
     height: 100%;
+    text-wrap: nowrap;
 }
 
 .bouton-filtres:hover {
@@ -317,10 +318,13 @@ h3 {
 .card-content-hebergements {
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
     margin: 0;
     gap: 8px;
     font-size: 16px;
+    text-wrap: nowrap;
+    
 
 }
 
@@ -404,17 +408,22 @@ h3 {
 .card-activites {
     background-color: #FFFFFF;
     border: 1px ;
-    border-radius: 20px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 
 .card-activites-h3 {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     display: flex;
+    align-items: center;
     gap: 10px;
     padding: 20px;
     box-shadow: 0px 3px 15px 0px #0000001A;
     font-size: 16px;
+    height: 40px;
 
 }
 
